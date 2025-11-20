@@ -1,9 +1,6 @@
 # Identity Management Security — Publications
 
-     Academic publications on Identity Management (IdM), digital identity, and Single Sign-On (SSO) security, including OAuth, OpenID Connect, and SAML 2.0,
-      with research contributions in vulnerability analysis, automated conformance testing, and artificial intelligence.
-      This page collects peer-reviewed work on SSO, identity federation, protocol-level attacks, vulnerabilities, and security testing
-      tools such as Micro-Id-Gym.
+Academic publications on Identity Management (IdM), digital identity, and Single Sign-On (SSO) security, including OAuth, OpenID Connect, and SAML 2.0, with research contributions in vulnerability analysis, automated conformance testing, and artificial intelligence. This page collects peer-reviewed work on SSO, identity federation, protocol-level attacks, vulnerabilities, and security testing tools such as Micro-Id-Gym (MIG).
 
 ---
 
