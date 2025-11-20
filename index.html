@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <title>Identity Management Security — Publications</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, SAML, AI-assisted protocol analysis, automated conformance testing, and vulnerability research.">
+  <meta name="description" content="Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, and SAML, with AI-assisted protocol analysis, automated conformance testing, and vulnerability research.">
+  <meta name="robots" content="index,follow">
+
+  <!-- Helpful keywords for search engines and LLMs -->
+  <meta name="keywords" content="Identity Management, IdM, Single Sign-On, SSO, OAuth, OAuth 2.0, OpenID Connect, OIDC, SAML, account linking, identity federation, security testing, automated conformance testing, AI-assisted protocol analysis, DevSecOps, Micro-Id-Gym, CSRF, security research">
+
   <style>
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -16,7 +21,7 @@
       font-weight: 600;
     }
     h1 {
-      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
     }
     hr {
       margin: 1.5rem 0;
@@ -39,7 +44,7 @@
     .paper-title {
       font-weight: 600;
     }
-    .meta {
+    .venue {
       font-size: 0.95rem;
       color: #555;
     }
@@ -51,15 +56,119 @@
     ul.links li {
       margin: 0.1rem 0;
     }
+    .intro {
+      margin-bottom: 1rem;
+    }
   </style>
+
+  <!-- JSON-LD: simple structured data listing the main articles -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Identity Management Security Publications",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments",
+          "isPartOf": "IEEE DevSecOpsRO",
+          "datePublished": "2025",
+          "sameAs": "https://doi.org/10.1109/EuroSPW67616.2025.00070"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process",
+          "isPartOf": "IEEE EuroS&P",
+          "datePublished": "2024",
+          "sameAs": "https://doi.org/10.1109/EuroSP60621.2024.00016"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Enhancing Security Testing for Identity Management Implementations: Introducing Micro-Id-Gym Language and Micro-Id-Gym Testing Tool",
+          "isPartOf": "IEEE Security & Privacy",
+          "datePublished": "2024",
+          "sameAs": "https://doi.org/10.1109/MSEC.2024.3450277"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline",
+          "isPartOf": "ETAA, LNCS 13136",
+          "datePublished": "2021",
+          "sameAs": "https://doi.org/10.1007/978-3-030-93747-8_7"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols",
+          "isPartOf": "ETAA, LNCS 12515",
+          "datePublished": "2020",
+          "sameAs": "https://doi.org/10.1007/978-3-030-64455-0_5"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Automated Assistance to the Security Assessment of API for Financial Services",
+          "isPartOf": "now publishers",
+          "datePublished": "2020",
+          "sameAs": "http://dx.doi.org/10.1561/9781680836875"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials",
+          "isPartOf": "ESORICS DETIPS",
+          "datePublished": "2020",
+          "sameAs": "https://doi.org/10.1007/978-3-030-66504-3_8"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "ScholarlyArticle",
+          "name": "Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices",
+          "isPartOf": "International Journal of Information Security and Cybercrime (IJISC)",
+          "datePublished": "2019",
+          "sameAs": "https://doi.org/10.19107/IJISC.2019.01.06"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <main>
     <h1>Identity Management Security — Publications</h1>
 
-    <p>
+    <p class="intro">
       Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, and SAML,
       with AI-assisted protocol analysis, automated conformance testing, and vulnerability research.
+      This page collects peer-reviewed work on SSO, identity federation, protocol-level attacks, and security testing
+      tools such as Micro-Id-Gym.
     </p>
 
     <hr>
@@ -67,26 +176,28 @@
     <section class="year-block" aria-labelledby="year-2025">
       <h2 id="year-2025">2025</h2>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
-          Continuous Risk Assessment &amp; Conformance Checking of IdM Deployments
+          Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments
         </div>
-        <div class="meta">
-          DevSecOpsRO, 2025
+        <div class="venue">
+          IEEE EuroS&amp;P, DevSecOpsRO, 2025
         </div>
         <ul class="links">
           <li>
+            DOI:
+            <a href="https://doi.org/10.1109/EuroSPW67616.2025.00070" target="_blank" rel="noopener noreferrer">link</a>
+          </li>
+          <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2025.pdf">papers/2025.pdf</a>
+            <a href="papers/2025.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
 
     <hr>
@@ -94,59 +205,51 @@
     <section class="year-block" aria-labelledby="year-2024">
       <h2 id="year-2024">2024</h2>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process
         </div>
-        <div class="meta">
+        <div class="venue">
           IEEE EuroS&amp;P, 2024
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.1109/EuroSP60621.2024.00016">
-              10.1109/EuroSP60621.2024.00016
-            </a>
+            <a href="https://doi.org/10.1109/EuroSP60621.2024.00016" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=CSRFing+the+SSO+Waves">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?cluster=15689327431706716349&hl=en&as_sdt=0,5" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2024-1.pdf">papers/2024-1.pdf</a>
+            <a href="papers/2024-1.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
-          Enhancing Security Testing for Identity Management Implementations
+          Enhancing Security Testing for Identity Management Implementations: Introducing Micro-Id-Gym Language and Micro-Id-Gym Testing Tool
         </div>
-        <div class="meta">
+        <div class="venue">
           IEEE Security &amp; Privacy, 2024
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.1109/MSEC.2024.3450277">
-              10.1109/MSEC.2024.3450277
-            </a>
+            <a href="https://doi.org/10.1109/MSEC.2024.3450277" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2024-2.pdf">papers/2024-2.pdf</a>
+            <a href="papers/2024-2.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
 
     <hr>
@@ -154,32 +257,28 @@
     <section class="year-block" aria-labelledby="year-2021">
       <h2 id="year-2021">2021</h2>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline
         </div>
-        <div class="meta">
+        <div class="venue">
           ETAA / LNCS 13136, 2021
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.1007/978-3-030-93747-8_7">
-              10.1007/978-3-030-93747-8_7
-            </a>
+            <a href="https://doi.org/10.1007/978-3-030-93747-8_7" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Integrating+a+Pentesting+Tool+for+IdM+Protocols+in+a+Continuous+Delivery+Pipeline">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Integrating+a+Pentesting+Tool+for+IdM+Protocols+in+a+Continuous+Delivery+Pipeline" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2021.pdf">papers/2021.pdf</a>
+            <a href="papers/2021.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
 
     <hr>
@@ -187,86 +286,74 @@
     <section class="year-block" aria-labelledby="year-2020">
       <h2 id="year-2020">2020</h2>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols
         </div>
-        <div class="meta">
+        <div class="venue">
           ETAA / LNCS 12515, 2020
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.1007/978-3-030-64455-0_5">
-              10.1007/978-3-030-64455-0_5
-            </a>
+            <a href="https://doi.org/10.1007/978-3-030-64455-0_5" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2020-1.pdf">papers/2020-1.pdf</a>
+            <a href="papers/2020-1.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           Automated Assistance to the Security Assessment of API for Financial Services
         </div>
-        <div class="meta">
+        <div class="venue">
           now publishers, 2020
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="http://dx.doi.org/10.1561/9781680836875">
-              10.1561/9781680836875
-            </a>
+            <a href="http://dx.doi.org/10.1561/9781680836875" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Automated+Assistance+to+the+Security+Assessment+of+API+for+Financial+Services">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Automated+Assistance+to+the+Security+Assessment+of+API+for+Financial+Services" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2020-2.pdf">papers/2020-2.pdf</a>
+            <a href="papers/2020-2.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials
         </div>
-        <div class="meta">
+        <div class="venue">
           ESORICS DETIPS, 2020
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.1007/978-3-030-66504-3_8">
-              10.1007/978-3-030-66504-3_8
-            </a>
+            <a href="https://doi.org/10.1007/978-3-030-66504-3_8" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Verifiable+Contracting:+A+Use+Case+for+Onboarding+and+Contract+Offering+in+Financial+Services">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?cluster=1433046687131988251&hl=en&as_sdt=0,5" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2020-3.pdf">papers/2020-3.pdf</a>
+            <a href="papers/2020-3.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
 
     <hr>
@@ -274,32 +361,28 @@
     <section class="year-block" aria-labelledby="year-2019">
       <h2 id="year-2019">2019</h2>
 
-      <div class="paper">
+      <article class="paper">
         <div class="paper-title">
           Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices
         </div>
-        <div class="meta">
-          International Journal of Information Security and Cybercrime (IJISC), 2019
+        <div class="venue">
+          IJISC, 2019
         </div>
         <ul class="links">
           <li>
             DOI:
-            <a href="https://doi.org/10.19107/IJISC.2019.01.06">
-              10.19107/IJISC.2019.01.06
-            </a>
+            <a href="https://doi.org/10.19107/IJISC.2019.01.06" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             Scholar:
-            <a href="https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices">
-              Search on Google Scholar
-            </a>
+            <a href="https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices" target="_blank" rel="noopener noreferrer">link</a>
           </li>
           <li>
             PDF:
-            <a href="papers/2019.pdf">papers/2019.pdf</a>
+            <a href="papers/2019.pdf" target="_blank" rel="noopener noreferrer">link</a>
           </li>
         </ul>
-      </div>
+      </article>
     </section>
   </main>
 </body>
