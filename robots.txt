@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# AI and LLM crawlers
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://abisegna.github.io/identity-security-publications/sitemap.xml
