@@ -8,7 +8,7 @@ Academic publications on Identity Management and Single Sign-On security, includ
 
 **Continuous Risk Assessment & Conformance Checking of IdM Deployments**  
 DevSecOpsRO, 2025  
-- DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
+- DOI: [link](https://doi.org/10.1109/EuroSPW67616.2025.00070)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments)  
 - PDF: <a href="papers/2025.pdf" target="_blank">link</a>
 
