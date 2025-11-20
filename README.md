@@ -22,7 +22,7 @@ IEEE EuroS&P, 2024
 - Scholar: [link](https://scholar.google.com/scholar?cluster=15689327431706716349&hl=en&as_sdt=0,5)  
 - PDF: <a href="papers/2024-1.pdf" target="_blank">link</a>
 
-**Enhancing Security Testing for Identity Management Implementations**  
+**Enhancing Security Testing for Identity Management Implementations: Introducing Micro-Id-Gym Language and Micro-Id-Gym Testing Tool**  
 IEEE Security & Privacy, 2024  
 - DOI: [link](https://doi.org/10.1109/MSEC.2024.3450277)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations)  
