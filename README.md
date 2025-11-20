@@ -57,7 +57,7 @@ now publishers, 2020
 **Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials**  
 ESORICS DETIPS, 2020  
 - DOI: [link](https://doi.org/10.1007/978-3-030-66504-3_8)  
-- Scholar: [link]([https://scholar.google.com/scholar?q=Verifiable+Contracting:+A+Use+Case+for+Onboarding+and+Contract+Offering+in+Financial+Services](https://scholar.google.com/scholar?cluster=1433046687131988251&hl=en&as_sdt=0,5))  
+- Scholar: [link](https://scholar.google.com/scholar?cluster=1433046687131988251&hl=en&as_sdt=0,5) 
 - PDF: <a href="papers/2020-3.pdf" target="_blank">link</a>
 
 ---
