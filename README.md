@@ -19,7 +19,7 @@ DevSecOpsRO, 2025
 **CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process**  
 IEEE EuroS&P, 2024  
 - DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
-- Scholar: [link](https://scholar.google.com/scholar?q=CSRFing+the+SSO+Waves)  
+- Scholar: [link](https://scholar.google.com/scholar?cluster=15689327431706716349&hl=en&as_sdt=0,5)  
 - PDF: <a href="papers/2024-1.pdf" target="_blank">link</a>
 
 **Enhancing Security Testing for Identity Management Implementations**  
