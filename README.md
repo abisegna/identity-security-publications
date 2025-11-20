@@ -1,6 +1,6 @@
 # Identity Management Security — Publications
 
-Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, and SAML, with AI-assisted protocol analysis, automated conformance testing, and vulnerability research.
+Academic publications on Identity Management (IdM) and Single Sign-On (SSO) security, including OAuth, OpenID Connect (OIDC), and SAML, with AI-assisted protocol analysis, automated conformance and compliance testing, and vulnerability research.
 
 ---
 
