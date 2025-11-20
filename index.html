@@ -6,159 +6,103 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, and SAML, with AI-assisted protocol analysis, automated conformance testing, and vulnerability research.">
   <meta name="robots" content="index,follow">
-
-  <!-- Helpful keywords for search engines and LLMs -->
   <meta name="keywords" content="Identity Management, IdM, Single Sign-On, SSO, OAuth, OAuth 2.0, OpenID Connect, OIDC, SAML, account linking, identity federation, security testing, automated conformance testing, AI-assisted protocol analysis, DevSecOps, Micro-Id-Gym, CSRF, security research">
 
+  <link rel="canonical" href="https://abisegna.github.io/identity-security-publications/">
+
   <style>
+    :root {
+      color-scheme: light dark;
+    }
+
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
       margin: 1.5rem;
       max-width: 900px;
+      background-color: #ffffff;
+      color: #111111;
     }
+
     h1, h2, h3 {
       font-weight: 600;
     }
+
     h1 {
       margin-bottom: 0.5rem;
     }
+
     hr {
       margin: 1.5rem 0;
       border: 0;
       border-top: 1px solid #ddd;
     }
+
     a {
       color: #0645ad;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .year-block {
       margin-bottom: 1.5rem;
     }
+
     .paper {
       margin-bottom: 1rem;
     }
+
     .paper-title {
       font-weight: 600;
     }
+
     .venue {
       font-size: 0.95rem;
       color: #555;
     }
+
     ul.links {
       list-style: none;
       padding-left: 0;
       margin: 0.25rem 0 0.75rem 0;
     }
+
     ul.links li {
       margin: 0.1rem 0;
     }
+
     .intro {
       margin-bottom: 1rem;
     }
-  </style>
 
-  <!-- JSON-LD: simple structured data listing the main articles -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    "name": "Identity Management Security Publications",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments",
-          "isPartOf": "IEEE DevSecOpsRO",
-          "datePublished": "2025",
-          "sameAs": "https://doi.org/10.1109/EuroSPW67616.2025.00070"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process",
-          "isPartOf": "IEEE EuroS&P",
-          "datePublished": "2024",
-          "sameAs": "https://doi.org/10.1109/EuroSP60621.2024.00016"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Enhancing Security Testing for Identity Management Implementations: Introducing Micro-Id-Gym Language and Micro-Id-Gym Testing Tool",
-          "isPartOf": "IEEE Security & Privacy",
-          "datePublished": "2024",
-          "sameAs": "https://doi.org/10.1109/MSEC.2024.3450277"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline",
-          "isPartOf": "ETAA, LNCS 13136",
-          "datePublished": "2021",
-          "sameAs": "https://doi.org/10.1007/978-3-030-93747-8_7"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols",
-          "isPartOf": "ETAA, LNCS 12515",
-          "datePublished": "2020",
-          "sameAs": "https://doi.org/10.1007/978-3-030-64455-0_5"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Automated Assistance to the Security Assessment of API for Financial Services",
-          "isPartOf": "now publishers",
-          "datePublished": "2020",
-          "sameAs": "http://dx.doi.org/10.1561/9781680836875"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 7,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials",
-          "isPartOf": "ESORICS DETIPS",
-          "datePublished": "2020",
-          "sameAs": "https://doi.org/10.1007/978-3-030-66504-3_8"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 8,
-        "item": {
-          "@type": "ScholarlyArticle",
-          "name": "Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices",
-          "isPartOf": "International Journal of Information Security and Cybercrime (IJISC)",
-          "datePublished": "2019",
-          "sameAs": "https://doi.org/10.19107/IJISC.2019.01.06"
-        }
+    .about {
+      margin-top: 2rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #111111;
+        color: #e6e6e6;
       }
-    ]
-  }
-  </script>
+
+      hr {
+        border-top-color: #333;
+      }
+
+      .venue {
+        color: #bbbbbb;
+      }
+
+      a {
+        color: #8bb4ff;
+      }
+    }
+  </style>
 </head>
 <body>
   <main>
@@ -181,7 +125,7 @@
           Towards Continuous Risk Assessment and Conformance Checking of IdM Deployments
         </div>
         <div class="venue">
-          IEEE EuroS&amp;P, DevSecOpsRO, 2025
+          IEEE DevSecOpsRO, 2025
         </div>
         <ul class="links">
           <li>
@@ -383,6 +327,18 @@
           </li>
         </ul>
       </article>
+    </section>
+
+    <section class="about">
+      <h2>About &amp; Google Scholar profile</h2>
+      <p>
+        This page is maintained as an accessible index of research on Identity Management, Single Sign-On security,
+        OAuth, OpenID Connect, SAML, account linking attacks, identity federation, and automated conformance testing.
+      </p>
+      <p>
+        Google Scholar profile:
+        <a href="https://scholar.google.com/citations?user=gIvyqnsAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">link</a>
+      </p>
     </section>
   </main>
 </body>
