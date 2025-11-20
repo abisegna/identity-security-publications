@@ -42,7 +42,7 @@ ETAA / LNCS 13136, 2021
 
 ## 2020
 
-**Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols**  
+**Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols in the Wild and in the Laboratory**  
 ETAA / LNCS 12515, 2020  
 - DOI: [link](https://doi.org/10.1007/978-3-030-64455-0_5)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols)  
