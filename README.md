@@ -1,6 +1,6 @@
 # Identity Management Security — Publications
 
-Academic publications on Identity Management (IdM) and Single Sign-On (SSO) security, including OAuth, OpenID Connect (OIDC), and SAML, with AI-assisted protocol analysis, automated conformance and compliance testing, and vulnerability research.
+Academic publications on Identity Management and Single Sign-On security, including OAuth, OpenID Connect, and SAML, with AI-assisted protocol analysis, automated conformance testing, and vulnerability research.
 
 ---
 
@@ -10,7 +10,7 @@ Academic publications on Identity Management (IdM) and Single Sign-On (SSO) secu
 DevSecOpsRO, 2025  
 - DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments)  
-- PDF: [link](papers/2025.pdf)
+- PDF: <a href="papers/2025.pdf" target="_blank">link</a>
 
 ---
 
@@ -20,13 +20,13 @@ DevSecOpsRO, 2025
 IEEE EuroS&P, 2024  
 - DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
 - Scholar: [link](https://scholar.google.com/scholar?q=CSRFing+the+SSO+Waves)  
-- PDF: [link](papers/2024-1.pdf)
+- PDF: <a href="papers/2024-1.pdf" target="_blank">link</a>
 
 **Enhancing Security Testing for Identity Management Implementations**  
 IEEE Security & Privacy, 2024  
 - DOI: [link](https://doi.org/10.1109/MSEC.2024.3450277)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations)  
-- PDF: [link](papers/2024-2.pdf)
+- PDF: <a href="papers/2024-2.pdf" target="_blank">link</a>
 
 ---
 
@@ -36,7 +36,7 @@ IEEE Security & Privacy, 2024
 ETAA / LNCS 13136, 2021  
 - DOI: [link](https://doi.org/10.1007/978-3-030-93747-8_7)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Integrating+a+Pentesting+Tool+for+IdM+Protocols+in+a+Continuous+Delivery+Pipeline)  
-- PDF: [link](papers/2021.pdf)
+- PDF: <a href="papers/2021.pdf" target="_blank">link</a>
 
 ---
 
@@ -46,19 +46,19 @@ ETAA / LNCS 13136, 2021
 ETAA / LNCS 12515, 2020  
 - DOI: [link](https://doi.org/10.1007/978-3-030-64455-0_5)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols)  
-- PDF: [link](papers/2020-1.pdf)
+- PDF: <a href="papers/2020-1.pdf" target="_blank">link</a>
 
 **Automated Assistance to the Security Assessment of API for Financial Services**  
 now publishers, 2020  
 - DOI: [link](http://dx.doi.org/10.1561/9781680836875)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Automated+Assistance+to+the+Security+Assessment+of+API+for+Financial+Services)  
-- PDF: [link](papers/2020-2.pdf)
+- PDF: <a href="papers/2020-2.pdf" target="_blank">link</a>
 
 **Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials**  
 ESORICS DETIPS, 2020  
 - DOI: [link](https://doi.org/10.1007/978-3-030-66504-3_8)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Verifiable+Contracting:+A+Use+Case+for+Onboarding+and+Contract+Offering+in+Financial+Services)  
-- PDF: [link](papers/2020-3.pdf)
+- PDF: <a href="papers/2020-3.pdf" target="_blank">link</a>
 
 ---
 
@@ -68,4 +68,4 @@ ESORICS DETIPS, 2020
 IJISC, 2019  
 - DOI: [link](https://doi.org/10.19107/IJISC.2019.01.06)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices)  
-- PDF: [link](papers/2019.pdf)
+- PDF: <a href="papers/2019.pdf" target="_blank">link</a>
