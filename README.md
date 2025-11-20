@@ -8,8 +8,9 @@ Academic publications on Identity Management and Single Sign-On security, includ
 
 **Continuous Risk Assessment & Conformance Checking of IdM Deployments**  
 DevSecOpsRO, 2025  
-- Scholar: <https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments>  
-- PDF: `papers/2025.pdf`
+- DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Continuous+Risk+Assessment+and+Conformance+Checking+of+IdM+Deployments)  
+- PDF: [papers/2025.pdf](papers/2025.pdf)
 
 ---
 
@@ -17,15 +18,15 @@ DevSecOpsRO, 2025
 
 **CSRFing the SSO Waves: Security Testing of SSO-Based Account Linking Process**  
 IEEE EuroS&P, 2024  
-- DOI: <https://doi.org/10.1109/EuroSP60621.2024.00016>  
-- Scholar: <https://scholar.google.com/scholar?q=CSRFing+the+SSO+Waves>  
-- PDF: `papers/2024-1.pdf`
+- DOI: [link](https://doi.org/10.1109/EuroSP60621.2024.00016)  
+- Scholar: [link](https://scholar.google.com/scholar?q=CSRFing+the+SSO+Waves)  
+- PDF: [papers/2024-1.pdf](papers/2024-1.pdf)
 
 **Enhancing Security Testing for Identity Management Implementations**  
 IEEE Security & Privacy, 2024  
-- DOI: <https://doi.org/10.1109/MSEC.2024.3450277>  
-- Scholar: <https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations>  
-- PDF: `papers/2024-2.pdf`
+- DOI: [link](https://doi.org/10.1109/MSEC.2024.3450277)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Enhancing+Security+Testing+for+Identity+Management+Implementations)  
+- PDF: [papers/2024-2.pdf](papers/2024-2.pdf)
 
 ---
 
@@ -33,9 +34,9 @@ IEEE Security & Privacy, 2024
 
 **Integrating a Pentesting Tool for IdM Protocols in a Continuous Delivery Pipeline**  
 ETAA / LNCS 13136, 2021  
-- DOI: <https://doi.org/10.1007/978-3-030-93747-8_7>  
-- Scholar: <https://scholar.google.com/scholar?q=Integrating+a+Pentesting+Tool+for+IdM+Protocols+in+a+Continuous+Delivery+Pipeline>  
-- PDF: `papers/2021.pdf`
+- DOI: [link](https://doi.org/10.1007/978-3-030-93747-8_7)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Integrating+a+Pentesting+Tool+for+IdM+Protocols+in+a+Continuous+Delivery+Pipeline)  
+- PDF: [papers/2021.pdf](papers/2021.pdf)
 
 ---
 
@@ -43,28 +44,28 @@ ETAA / LNCS 13136, 2021
 
 **Micro-Id-Gym: a Flexible Tool for Pentesting Identity Management Protocols**  
 ETAA / LNCS 12515, 2020  
-- DOI: <https://doi.org/10.1007/978-3-030-64455-0_5>  
-- Scholar: <https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols>  
-- PDF: `papers/2020-1.pdf`
+- DOI: [link](https://doi.org/10.1007/978-3-030-64455-0_5)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+a+Flexible+Tool+for+Pentesting+Identity+Management+Protocols)  
+- PDF: [papers/2020-1.pdf](papers/2020-1.pdf)
 
 **Automated Assistance to the Security Assessment of API for Financial Services**  
 now publishers, 2020  
-- DOI: <http://dx.doi.org/10.1561/9781680836875>  
-- Scholar: <https://scholar.google.com/scholar?q=Automated+Assistance+to+the+Security+Assessment+of+API+for+Financial+Services>  
-- PDF: `papers/2020-2.pdf`
+- DOI: [link](http://dx.doi.org/10.1561/9781680836875)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Automated+Assistance+to+the+Security+Assessment+of+API+for+Financial+Services)  
+- PDF: [papers/2020-2.pdf](papers/2020-2.pdf)
 
 **Verifiable Contracting: A Use Case for Onboarding and Contract Offering in Financial Services with eIDAS and Verifiable Credentials**  
 ESORICS DETIPS, 2020  
-- DOI: <https://doi.org/10.1007/978-3-030-66504-3_8>  
-- Scholar: <https://scholar.google.com/scholar?q=Verifiable+Contracting:+A+Use+Case+for+Onboarding+and+Contract+Offering+in+Financial+Services>  
-- PDF: `papers/2020-3.pdf`
+- DOI: [link](https://doi.org/10.1007/978-3-030-66504-3_8)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Verifiable+Contracting:+A+Use+Case+for+Onboarding+and+Contract+Offering+in+Financial+Services)  
+- PDF: [papers/2020-3.pdf](papers/2020-3.pdf)
 
 ---
 
 ## 2019
 
 **Micro-Id-Gym: Identity Management Workouts with Container-Based Microservices**  
-International Journal of Information Security and Cybercrime (IJISC), 2019  
-- DOI: <https://doi.org/10.19107/IJISC.2019.01.06>  
-- Scholar: <https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices>  
-- PDF: `papers/2019.pdf`
+IJISC, 2019  
+- DOI: [link](https://doi.org/10.19107/IJISC.2019.01.06)  
+- Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices)  
+- PDF: [papers/2019.pdf](papers/2019.pdf)
