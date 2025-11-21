@@ -68,10 +68,15 @@
       list-style: none;
       padding-left: 0;
       margin: 0.25rem 0 0.75rem 0;
+    
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: baseline;
     }
-
+    
     ul.links li {
-      margin: 0.1rem 0;
+      margin: 0;
     }
 
     .intro {
@@ -100,6 +105,22 @@
 
       a {
         color: #8bb4ff;
+      }
+    }
+    @media (max-width: 480px) {
+      ul.links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+      }
+    }
+    @media (max-width: 600px) {
+      body {
+        margin: 1rem;
+      }
+      
+      .paper-title {
+        font-size: 1rem;
       }
     }
   </style>
