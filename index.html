@@ -13,12 +13,18 @@
   <style>
     :root {
       color-scheme: light dark;
+      box-sizing: border-box;
+    }
+
+    *, *::before, *::after {
+      box-sizing: inherit;
     }
 
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.6;
-      margin: 1.5rem;
+      margin: 1.5rem auto;
+      padding: 0 1.25rem;
       max-width: 900px;
       background-color: #ffffff;
       color: #111111;
@@ -26,10 +32,11 @@
 
     h1, h2, h3 {
       font-weight: 600;
+      margin: 0 0 0.5rem 0;
     }
 
     h1 {
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem;
     }
 
     hr {
@@ -57,26 +64,29 @@
 
     .paper-title {
       font-weight: 600;
+      margin-bottom: 0.1rem;
     }
 
     .venue {
       font-size: 0.95rem;
       color: #555;
+      margin-bottom: 0.2rem;
     }
 
     ul.links {
       list-style: none;
       padding-left: 0;
       margin: 0.25rem 0 0.75rem 0;
-    
+
       display: flex;
       flex-wrap: wrap;
       gap: 0.75rem;
       align-items: baseline;
     }
-    
+
     ul.links li {
       margin: 0;
+      white-space: nowrap;
     }
 
     .intro {
@@ -107,37 +117,45 @@
         color: #8bb4ff;
       }
     }
-    @media (max-width: 480px) {
+
+    /* Mobile tweaks */
+    @media (max-width: 600px) {
+      body {
+        margin: 1rem auto;
+        padding: 0 0.85rem;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      .paper-title {
+        font-size: 1rem;
+      }
+
       ul.links {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.2rem;
       }
-    }
-    @media (max-width: 600px) {
-      body {
-        margin: 1rem;
-      }
-      
-      .paper-title {
-        font-size: 1rem;
+
+      ul.links li {
+        white-space: normal;
       }
     }
   </style>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 </head>
 <body>
-  <!-- version: 2025-11-20-1 -->
+  <!-- version: 2025-11-20-2 -->
   <main>
     <h1>Identity Management Security — Publications</h1>
 
     <p class="intro">
-      Academic publications on Identity Management (IdM), digital identity, and Single Sign-On (SSO) security, including OAuth, OpenID Connect, and SAML 2.0,
-      with research contributions in vulnerability analysis, automated conformance testing, and artificial intelligence.
-      This page collects peer-reviewed work on SSO, identity federation, protocol-level attacks, vulnerabilities, and security testing
-      tools such as Micro-Id-Gym.
+      Academic publications on Identity Management (IdM), digital identity, and Single Sign-On (SSO) security, including OAuth, OpenID Connect, and SAML 2.0, with research contributions in vulnerability analysis, automated conformance testing, and artificial intelligence. This page collects peer-reviewed work on SSO, identity federation, protocol-level attacks, vulnerabilities, and security testing tools such as Micro-Id-Gym.
     </p>
 
     <hr>
@@ -357,11 +375,9 @@
     <section class="about">
       <h2>About &amp; Google Scholar profile</h2>
       <p>
-        This page is maintained as an accessible index of research on Identity Management, digital identity,
-        Single Sign-On (SSO) security, OAuth, OpenID Connect, SAML, identity federation, account linking attacks,
-        vulnerability research, automated conformance testing, and artificial intelligence.
-        It provides a consolidated reference for peer-reviewed work, including publications, tools, and research
-        contributions such as Micro-Id-Gym.      </p>
+        This page is maintained as an accessible index of research on Identity Management, digital identity, Single Sign-On (SSO) security, OAuth, OpenID Connect, SAML, identity federation, account linking attacks, vulnerability research, automated conformance testing, and artificial intelligence. It provides a consolidated reference for peer-reviewed work, including publications, tools, and research contributions such as Micro-Id-Gym.
+      </p>
+      <p>
         Google Scholar profile:
         <a href="https://scholar.google.com/citations?user=gIvyqnsAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">link</a>
       </p>
