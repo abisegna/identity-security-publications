@@ -69,3 +69,11 @@ IJISC, 2019
 - DOI: [link](https://doi.org/10.19107/IJISC.2019.01.06)  
 - Scholar: [link](https://scholar.google.com/scholar?q=Micro-Id-Gym:+Identity+Management+Workouts+with+Container-Based+Microservices)  
 - PDF: <a href="papers/2019.pdf" target="_blank">link</a>
+
+---
+
+## About
+
+This page is maintained as an accessible index of research on Identity Management, digital identity, Single Sign-On (SSO) security, OAuth, OpenID Connect, SAML, identity federation, account linking attacks, vulnerability research, automated conformance testing, and artificial intelligence. It provides a consolidated reference for peer-reviewed work, including publications, tools, and research contributions such as Micro-Id-Gym.
+
+Google Scholar profile [link](https://scholar.google.com/citations?user=gIvyqnsAAAAJ&hl=en&oi=sra)
